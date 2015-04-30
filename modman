@@ -1,0 +1,4 @@
+# Define symlink path maps for ModMan and magento-composer-installer.
+src/app/code/community/Linus/ProphetTest app/code/community/Linus/ProphetTest
+
+src/app/etc/modules/*  app/etc/modules/

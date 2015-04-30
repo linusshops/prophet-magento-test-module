@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Linus_ProphetTest>
+            <version>0.1.0</version>
+        </Linus_ProphetTest>
+    </modules>
+    <global>
+        <models>
+            <linusprophettest>
+                <class>Linus_ProphetTest_Model</class>
+            </linusprophettest>
+        </models>
+        <blocks>
+            <linusprophettest>
+                <class>Linus_ProphetTest_Block</class>
+            </linusprophettest>
+        </blocks>
+        <helpers>
+            <linusprophettest>
+                <class>Linus_ProphetTest_Helper</class>
+            </linusprophettest>
+        </helpers>
+        
+    </global>
+    
+    <frontend>
+        
+        <layout>
+            <updates>
+                <linusprophettest>
+                    <file>linusprophettest.xml</file>
+                </linusprophettest>
+            </updates>
+        </layout>
+        
+        
+        <routers>
+            <linusprophettest>
+                <use>standard</use>
+                <args>
+                    <module>Linus_ProphetTest</module>
+                    <frontName>prophettest</frontName>
+                </args>
+            </linusprophettest>
+        </routers>
+        
+    </frontend>
+    
+    
+    <adminhtml>
+        
+        <layout>
+            <updates>
+                <linusprophettest>
+                    <file>linusprophettest.xml</file>
+                </linusprophettest>
+            </updates>
+        </layout>
+        
+    </adminhtml>
+        
+    <admin>
+        <routers>
+            <linusprophettest>
+                <use>admin</use>
+                <args>
+                    <module>Linus_ProphetTest</module>
+                    <frontName>prophettest</frontName>
+                </args>
+            </linusprophettest>
+        </routers>
+    </admin>
+        
+    
+</config>

@@ -1,0 +1,41 @@
+{
+  "name": "linusshops/prophet-magento-test-module",
+  "description": "",
+  "version": "",
+  "type": "magento-module",
+  "keywords": [
+    "magento",
+    "module",
+    "linus shops",
+    "canadas's motorcycle",
+    "mx canada"
+  ],
+  "homepage": "https://github.com/linusshops/prophet-magento-test-module",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Sam Schmidt",
+      "email": "samuel@dersam.net",
+      "homepage": "http://dersam.net",
+      "role": "Web Developer"
+    },
+    {
+      "name": "Linus Shops Inc",
+      "email": "corporate@linusshops.com",
+      "homepage": "http://www.linusshops.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.firegento.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra":{
+  }
+}
